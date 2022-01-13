@@ -12,11 +12,43 @@
     color: grey;
 }
 
-.data{
-    position: relative;
-    margin-top: 0%;
+.grigio2{
+    position: relative; margin-top:-20px;
+    color: grey;
 }
 
-.spazio{
-    height: 0%;
+.margin{
+    position: relative; margin-top:0px;
+}
+
+.giallo{
+    background-color: yellow;
+}
+
+.ul{
+    position: relative;right:+25px;
+}
+
+.tabella{
+    
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.blu{
+    background-color: rgb(6, 186, 241);
+}
+
+.azzurro{
+    background-color: rgb(110, 209, 255);
+}
+
+.thead{
+    width: 30px;
+    height: 10px;
+}
+
+.bianco{
+    color: white;
 }

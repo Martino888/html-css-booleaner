@@ -12,6 +12,11 @@
     color: grey;
 }
 
+.data{
+    position: relative;
+    margin-top: 0%;
+}
+
 .spazio{
     height: 0%;
 }

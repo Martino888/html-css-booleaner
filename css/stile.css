@@ -2,6 +2,7 @@
     background-color: rgb(19, 169, 214);
     background-image:url("../img/pattern.png");
     background-size:contain;
+    background-repeat: cover;
 }
 .dimensione{
     width: 300px;
@@ -9,4 +10,8 @@
 
 .grigio{
     color: grey;
+}
+
+.spazio{
+    height: 0%;
 }

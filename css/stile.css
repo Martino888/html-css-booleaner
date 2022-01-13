@@ -1,0 +1,8 @@
+.sfondo{
+    background-color: rgb(19, 169, 214);background-image:url("../img/pattern.png");
+}
+
+.pattern{
+    background: repeat;
+    width: 300px;
+}

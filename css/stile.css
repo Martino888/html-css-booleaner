@@ -1,8 +1,12 @@
 .sfondo{
-    background-color: rgb(19, 169, 214);background-image:url("../img/pattern.png");
+    background-color: rgb(19, 169, 214);
+    background-image:url("../img/pattern.png");
+    background-size:contain;
+}
+.dimensione{
+    width: 300px;
 }
 
-.pattern{
-    background: repeat;
-    width: 300px;
+.grigio{
+    color: grey;
 }

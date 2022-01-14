@@ -1,12 +1,17 @@
+/*header*/
+
 .sfondo{
     background-color: rgb(19, 169, 214);
     background-image:url("../img/pattern.png");
-    background-size:contain;
-    background-repeat: cover;
+    background-repeat:repeat-x
+    
 }
 .dimensione{
-    width: 300px;
+    width: 250px;
+    padding: 20px;
 }
+
+/*body*/
 
 .grigio{
     color: grey;
@@ -30,10 +35,8 @@
 }
 
 .tabella{
-    
-    height: 100%;
-    width: 100%;
     border-collapse: collapse;
+    height:auto ;
 }
 
 .blu{
@@ -42,13 +45,13 @@
 
 .azzurro{
     background-color: rgb(110, 209, 255);
-}
-
-.thead{
-    width: 30px;
-    height: 10px;
+    align-self: center;
 }
 
 .bianco{
     color: white;
+}
+
+.spazio{
+    height:250px;
 }

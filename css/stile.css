@@ -4,11 +4,12 @@
     background-color: rgb(19, 169, 214);
     background-image:url("../img/pattern.png");
     background-repeat:repeat-x
-    
+
 }
 .dimensione{
     width: 250px;
     padding: 20px;
+    
 }
 
 /*body*/
@@ -45,7 +46,7 @@
 
 .azzurro{
     background-color: rgb(110, 209, 255);
-    align-self: center;
+
 }
 
 .bianco{

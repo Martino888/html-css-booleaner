@@ -1,19 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 /*header*/
 
-.sfondo{
+header{
     background-color: rgb(19, 169, 214);
     background-image:url("../img/pattern.png");
-    background-repeat:repeat-x
-
+    background-size:350px;
 }
-.dimensione{
-    width: 250px;
-    padding: 20px;
-    
+.logo{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.link{
+text-decoration: none;
 }
 
 /*body*/
 
+.container{
+    padding-right: 10px;
+    padding-left: 20px;
+}
 .grigio{
     color: grey;
 }
@@ -23,21 +35,21 @@
     color: grey;
 }
 
-.margin{
-    position: relative; margin-top:0px;
-}
+
 
 .giallo{
     background-color: yellow;
 }
 
-.ul{
-    position: relative;right:+25px;
+table{
+    border-collapse: collapse;
+    padding-right: 10px;
+    padding-left: 20px;
+    position: relative;right:-10px;
 }
 
-.tabella{
-    border-collapse: collapse;
-    height:auto ;
+.bak{
+    background-size: 50%;
 }
 
 .blu{
@@ -55,4 +67,23 @@
 
 .spazio{
     height:250px;
+}
+
+.pox{
+width: 250px;
+height:200px ;
+}
+
+.lorem{
+    background-image: url(../img/monitor.jpg);
+    padding-right: 10px;
+    padding-left: 20px;
+    position: relative;right:-10px;
+}
+
+.lorem2{
+    background-image: url(../img/graph.jpg);
+    padding-right: 10px;
+    padding-left: 20px;
+    position: relative;right:-10px;
 }
